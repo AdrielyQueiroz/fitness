@@ -1,0 +1,47 @@
+.input {
+    padding: 15px;
+    border-radius: 30px;
+    width: 300px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 100px;
+    border: none;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+  
+.lupa-container {
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* media query */
+@media (max-width:768px) {
+    .input {
+        padding: 5px;
+        font-size: 7px;
+        margin-top: 5px;
+        width: 60%;
+        margin-left: 20px;
+    }
+
+    .lupa {
+       width: 10px;
+       margin-left: -60px;
+       margin-top: 10px;
+    }
+
+}
+

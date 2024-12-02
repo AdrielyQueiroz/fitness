@@ -1,0 +1,39 @@
+.nav {
+    background-color: black;
+    display:flex;
+    padding: 30px;
+    gap: 12%
+}
+
+.title {
+    color: white;
+    margin-left: 10%;
+    text-transform: uppercase;
+}
+
+.lupa {
+    font-size: 20px;
+    color: rgb(91, 146, 8);
+}
+
+.lupa:hover {
+    color: rgb(78, 170, 78);
+    cursor: pointer;
+}
+
+.span {
+    color: red;
+    text-decoration:underline;
+}
+
+/* media query */
+@media(max-width:768px) {
+    .nav {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .title {
+        font-size: 10px;
+    }
+}

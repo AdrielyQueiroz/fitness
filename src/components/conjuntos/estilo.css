@@ -1,0 +1,70 @@
+.image-container {
+    display: flex;
+    position: relative;
+} 
+
+.image-1 {
+    width: 70%;
+    max-width: 350px;
+    border-radius: 20px;
+    margin-left: 15%;
+}
+
+.image-1:hover, .image-2:hover,
+.image-3:hover {
+    cursor: pointer;
+    background-color: white;
+    opacity: 80%;
+}
+
+.image-2 {
+    width: 75%;
+    max-width: 350px;
+    border-radius: 20px;
+    margin-left: 15%;
+}
+
+.image-3 {
+    width: 72%;
+    max-width: 380px;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+
+.icon-left,
+.icon-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.icon-left {
+    left: -1px;
+}
+
+.icon-right {
+     right: -5px;
+}
+
+.icon-left:hover {
+    color: rgb(151, 151, 151);
+}
+
+.icon-right:hover {
+    color: rgb(151, 151, 151);
+}
+
+/* media query */
+@media (max-width:768px) {
+    .icon-left {
+        width: 10px;
+    }
+
+    .icon-right {
+        width: 10px;
+    }
+}

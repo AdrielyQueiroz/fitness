@@ -1,0 +1,29 @@
+.btn {
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 2rem;
+}
+
+.btn:hover {
+    background-color: #f7f7f7;
+    color: green;
+    cursor: pointer
+}
+
+.btn:focus {
+    color: rgb(8, 109, 58);
+    background-color: #f7f7f7;
+}
+
+/* media query */
+@media(max-width:768px) {
+    .btn {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+}

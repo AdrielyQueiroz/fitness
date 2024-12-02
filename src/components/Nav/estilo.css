@@ -1,0 +1,21 @@
+.bg {
+    background-color: black;
+    padding: 0.9rem;
+}
+
+.phrase {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* media query */
+@media(max-width:768px) {
+    .bg {
+        padding: 5px;
+    }
+
+    .phrase {
+        font-size: 7px;
+    }
+}
